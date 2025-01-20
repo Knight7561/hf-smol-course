@@ -2,7 +2,6 @@ import argparse
 import os
 from pydantic import BaseModel, Field
 from datasets import Dataset
-from typing import List
 
 from distilabel.llms import InferenceEndpointsLLM
 from distilabel.pipeline import Pipeline
